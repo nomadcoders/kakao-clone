@@ -1,0 +1,38 @@
+.top-header {
+  background-color: #523737;
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+.top-header .header__top,
+.top-header .header__bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-header .header__top {
+  margin: 0 5px;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+.top-header .header__bottom {
+  margin: 0 15px;
+}
+
+.top-header .header__column:first-child {
+  width: 33%;
+}
+
+.top-header .header__column:last-child {
+  width: 33%;
+  text-align: right;
+}
+
+.top-header .header__bottom .header__column:first-child .header__text {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.top-header .header__number {
+  color: yellow;
+}
