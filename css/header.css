@@ -8,6 +8,10 @@
   z-index: 2;
 }
 
+.top-header a {
+  color: white;
+}
+
 .top-header .header__top,
 .top-header .header__bottom {
   display: flex;

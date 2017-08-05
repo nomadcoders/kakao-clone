@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="top-header">
+  <header class="top-header top-header--transparent">
     <div class="header__top">
       <div class="header__column">
         <i class="fa fa-fighter-jet"></i>
@@ -40,22 +40,26 @@
   </header>
   <main class="profile">
     <header class="profile__header">
-      <img src="images/avatar.jpg" alt="">
-      <h3 class="profile__header-title">Nicolas</h3>
-    </header>
-    <input type="text" placeholder="itnicolasme@gmail.com">
-    <div class="profile__actions">
-      <div class="profile__action">
-        <span class="profile__action-circle">
-            <i class="fa fa-comment fa-2x"></i>
-        </span>
-        <span class="profile__action-title">My Chatroom</span>
+      <div class="profile__header-container">
+        <img src="images/avatar.jpg" alt="">
+        <h3 class="profile__header-title">Nicolas</h3>
       </div>
-      <div class="profile__action">
-        <span class="profile__action-circle">
-            <i class="fa fa-pencil fa-2x"></i>
-        </span>
-        <span class="profile__action-title">Edit Profile</span>
+    </header>
+    <div class="profile__container">
+      <input type="text" placeholder="itnicolasme@gmail.com">
+      <div class="profile__actions">
+        <div class="profile__action">
+          <span class="profile__action-circle">
+              <i class="fa fa-comment fa-lg"></i>
+          </span>
+          <span class="profile__action-title">My Chatroom</span>
+        </div>
+        <div class="profile__action">
+          <span class="profile__action-circle">
+              <i class="fa fa-pencil fa-lg"></i>
+          </span>
+          <span class="profile__action-title">Edit Profile</span>
+        </div>
       </div>
     </div>
   </main>
