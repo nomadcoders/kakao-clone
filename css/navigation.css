@@ -15,6 +15,11 @@
   flex-direction: column;
   text-decoration: none;
   color: #c1c1c1;
+  transition: transform .3s linear;
+}
+
+.tab-bar .tab-bar__tab:hover {
+  transform: scale(1.1);
 }
 
 .tab-bar .tab-bar__tab i {
